@@ -1,0 +1,34 @@
+.hexSheet {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: black;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/background-tile-long.png');
+    background-repeat: repeat;
+    background-size: 25%;
+    position: fixed;
+    z-index: -1;
+}
+
+@keyframes hexglow {
+    0% { top: -60px; }
+    100% { top: 100vh; }
+}
+
+.underlay {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 10%;
+    animation-name: hexglow;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: linear-gradient(to bottom, rgba(255, 46, 46, 0.25), rgb(255, 46, 46), rgba(255, 46, 46, 0.25));
+    top: -60px;
+}
