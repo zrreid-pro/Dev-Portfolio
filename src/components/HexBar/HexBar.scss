@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'RaiderCrusader';
+    src: url('../../assets/fonts/raidercrusadersemistraight.ttf');
+}
+
+.hexbar {
+    list-style-type: none;
+}
+
+.hextile {
+    font-family: 'RaiderCrusader';
+    text-align: center;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    width: 10%;
+    // position: relative;
+    // z-index: 1;
+}
+
+.hextile > a {
+    background-color: white;
+    font-family: 'RaiderCrusader';
+    text-align: center;
+    padding: 10% 5%;
+}
