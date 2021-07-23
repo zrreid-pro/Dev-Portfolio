@@ -2,8 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+import { Backdrop } from './components';
 
 ReactDOM.render(
-    <App />,
+  <>
+    <Backdrop />
+    <App />
+  </>,
   document.getElementById('root')
 );

@@ -1,13 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Header, HexTile, Backdrop } from './components';
+import { Header, HexTile, HexBar } from './components';
 
 function App() {
   return (
-    <>
-      <Backdrop />
-    </>
+    <div className='app-content'>
+      <HexBar />
+    
+      
+      
+    </div>
   );
 }
 
