@@ -9,9 +9,10 @@
 .overlay {
     height: 100%;
     width: 100%;
-    background-image: url('../../assets/images/background-tile-long.png');
+    background-image: url('../../assets/images/background-tile-long-dark.png');
     background-repeat: repeat;
-    background-size: 20%;
+    // background-size: 10%;
+    background-size: 200px;
     position: fixed;
     z-index: -1;
 }
@@ -40,3 +41,11 @@
                                         rgba(155, 56, 56, 0));
     top: -60px;
 }
+
+.backdrop {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    background-color: rgb(65, 65, 65);
+} 

@@ -7,10 +7,16 @@ export default function Hexbar() {
     const sections = ['Bio', 'Skills', 'Projects', 'Contact'];
 
     return (
-        <ul className='hexbar'>
-            {sections.map((section, index) => (
-                <HexTile title={section} key={index} />
-            ))}
-        </ul>
+        <div className='ui'>
+          
+        </div>
     );
+
+    // return (
+    //     <ul className='hexbar'>
+    //         {sections.map((section, index) => (
+    //             <HexTile title={section} key={index} />
+    //         ))}
+    //     </ul>
+    // );
 }
