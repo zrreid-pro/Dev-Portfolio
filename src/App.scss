@@ -1,7 +1,24 @@
 .app-content {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    // align-content: center;
+    // justify-content: center;
     width: 100vw;
     height: 100vh;
+    // background-color: black;
+    background-color: gray;
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('./assets/fonts/RobotoSlab-Regular.ttf');
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('./assets/fonts/RobotoSlab-Black.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('./assets/fonts/RobotoSlab-SemiBold.ttf');
+    font-weight: medium;
 }
