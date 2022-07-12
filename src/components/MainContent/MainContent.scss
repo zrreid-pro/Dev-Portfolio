@@ -1,0 +1,26 @@
+.main-content {
+    
+    // height: 100%;
+    width: 100%;
+    // background-color: blue;
+    position: relative;
+    // z-index: -1;
+    overflow-y: auto;
+}
+
+
+// Small Screens
+@media only screen and (max-width: 600px) {
+    .main-content {
+        margin-left: 0;
+        padding-bottom: 5rem;
+    }
+}
+
+// Big Screens
+@media only screen and (min-width: 600px) {
+    .main-content {
+        margin-left: 5rem;
+        margin-bottom: 0;
+    }
+    }

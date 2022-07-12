@@ -4,24 +4,15 @@ import './App.scss';
 
 
 
-import { Backdrop, Header, HexTile, HexBar } from './components';
+import { Backdrop, Header, HexTile, HexBar, MainContent, Sidebar } from './components';
 
 function App() {
   return (
     <div className='app-content'>
-      <Backdrop />
-    
+      <Sidebar />
+      <MainContent />
     </div>
   );
-
-  // return (
-  //   <div style={{width: '100%', height: '100%', display: 'flex', alignContent: 'center', justifyContent: 'center'}} className='app-content'>
-  //     <HexBar />
-    
-      
-      
-  //   </div>
-  // );
 }
 
 export default App;
